@@ -2,7 +2,8 @@
   "name": "leet-code",
   "module": "index.ts",
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "@types/jest": "^29.5.12"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
