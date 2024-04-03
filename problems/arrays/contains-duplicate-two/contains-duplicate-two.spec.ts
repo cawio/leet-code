@@ -1,4 +1,4 @@
-import { containsNearbyDuplicate } from "./contains-duplicates-two";
+import { containsNearbyDuplicate } from "./contains-duplicate-two";
 
 describe('Arrays: Contains Duplicates II', () => {
     let nums: number[];
