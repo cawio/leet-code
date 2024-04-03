@@ -13,8 +13,8 @@ export function containsNearbyAlmostDuplicate(nums: number[], indexDiff: number,
     const seen = new Map<number, number>();
 
     for (let i = 0; i < nums.length; i++) {
-        for (let j = Math.max(0, nums[i] - valueDiff); j <= Math.min(nums[i] + valueDiff, Number.MAX_SAFE_INTEGER); j++) {
-            if (seen.has(j) && i - seen.get(j)! <= indexDiff) {
+        for (let j = Math.max(0, i - indexDiff); j < i; j++) {
+            if (Math.abs(nums[i] - nums[j]) <= valueDiff) {
                 return true;
             }
         }
