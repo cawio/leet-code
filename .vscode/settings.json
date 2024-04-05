@@ -1,6 +1,7 @@
 {
     "conventionalCommits.scopes": [
         "arrays",
-        "deps"
+        "deps",
+        "strings"
     ]
 }
