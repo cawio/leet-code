@@ -5,5 +5,5 @@
  * see: https://leetcode.com/problems/length-of-last-word/
  */
 export function lengthOfLastWord(s: string): number {
-    return s.trim().split('').pop()?.length ?? 0;
+    return s.trim().split(' ').pop()?.length ?? 0;
 };
