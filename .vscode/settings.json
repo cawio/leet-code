@@ -3,5 +3,8 @@
         "arrays",
         "deps",
         "strings"
+    ],
+    "cSpell.words": [
+        "nums"
     ]
 }
