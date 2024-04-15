@@ -1,4 +1,6 @@
-import { buildTree, sumOfLeftLeaves } from "./sum-of-left-leaves";
+import { buildTree } from "../buildTree";
+import { sumOfLeftLeaves } from "./sum-of-left-leaves";
+
 
 describe('Trees: Sum of Left Leaves', () => {
     let testCases: [(number | null)[], number][] = [
